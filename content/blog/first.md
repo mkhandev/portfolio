@@ -4,6 +4,7 @@ head:
   meta:
     - name: 'keywords'
       content: 'nuxt, vue, content'
+publishedAt: 2023-03-12 17:15:00
 ---
 
 # First post on our website

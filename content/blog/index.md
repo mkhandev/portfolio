@@ -1,3 +1,8 @@
-#ggg
+---
+description: 'List of all my recent blog posts'
+---
+# Blog Posts
 
-aaaa
+This is the list of my recent blog posts
+
+::blog-posts
