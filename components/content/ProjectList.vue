@@ -1,23 +1,12 @@
 <script setup>
-const loading = ref(true);
-
 const { status, data, error } = await useFetch(
   "https://api.github.com/users/mkhandev/repos"
 );
 
-if (status === "success") {
-  loading.value = false;
-}
 </script>
 
 <template>
-  <div>
-    <p class="mb-10">Take a look at my GitHub projects!</p>
-
-    <div v-if="loading" class="text-center">
-      <p>Loading projects...</p>
-    </div>
-
+  <div class="not-prose">
     <section>
       <ul class="grid grid-cols-1 gap-4">
         <li
