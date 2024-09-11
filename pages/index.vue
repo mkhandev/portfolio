@@ -5,7 +5,9 @@ useHead({
 </script>
 
 <template>
-  <h1>Home</h1>
+  <article class="prose dark:prose-invert max-w-none">
+    <ContentDoc path="/" />
+  </article>
 </template>
 
 <style>
